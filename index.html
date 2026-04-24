@@ -8,8 +8,48 @@
     <title>Hotel</title>
 </head>
 <body>
+    <header>
+        <h1>Bem Vindo ao Hotel Braguinha</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="image-banner">
+                <div class="hero-text">
+                    <h2>Seu conforto é a nossa prioridade</h2>
+                    <p>Experiência Luxuosa, qualidade e conforto. Venha se hospedar conosco!</p>
+                    <button>Veja mais</button>
+                    <button>Registre-se</button>
+                    <button>Quartos</button>
+                </div>
+            </div>
+        </section>
+        <div id="registerModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h3>Cadastrar Hospede</h3>
+                <form id="registerForm">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">email</label>
+                    <input type="text" name="email" id="email" required>
+                    <label for="phone">telefone</label>
+                    <input type="number" name="phone" id="phone" required>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="modal" id="roomModal">
+            <div class="modal-content">
+                <span class="close" id="closeRoom">&times;</span>
+                <h3>status dos Quartos</h3>
+                <p id="roomsInfo"></p>
+            </div>
 
-    <h1>Hotel</h1>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Hotel Braguinha. Todos os Direitos Reservados</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
