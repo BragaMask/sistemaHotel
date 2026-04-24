@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color:#35424e;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.image-banner{
+    width: 100vw;
+    height: 800px;
+    min-height: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4), url(./img/OIP.webp));
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px; 
+}
